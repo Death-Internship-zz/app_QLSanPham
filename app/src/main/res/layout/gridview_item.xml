@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/proc_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@color/colorPrimary"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/lbl_proc_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="123"/>
+        <TextView
+            android:id="@+id/lbl_proc_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="shiba"/>
+        <TextView
+            android:id="@+id/lbl_proc_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25 trieu"/>
+        <TextView
+            android:id="@+id/lbl_proc_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cho nhap"/>
+        <TextView
+            android:id="@+id/lbl_proc_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="anh ne"/>
+    </LinearLayout>
+
+</LinearLayout>
